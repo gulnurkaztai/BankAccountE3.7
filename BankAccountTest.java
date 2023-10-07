@@ -7,5 +7,8 @@ public class BankAccountTest {
         bankAccount.withdraw(400);
         System.out.println("Expected balance amount is 100$");
         System.out.println(bankAccount.getBalance() + "$");
+        bankAccount.addInterest(10);
+        System.out.println("Expected balance amount is now 110$");
+        System.out.println(bankAccount.getBalance() + "$");
     }
 }

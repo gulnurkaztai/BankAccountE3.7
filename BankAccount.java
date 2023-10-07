@@ -44,4 +44,8 @@
             return this.balance;
         }
 
+        public void addInterest(double rate){
+            this.balance += (this.balance * rate)/100;
+        }
+
  }
